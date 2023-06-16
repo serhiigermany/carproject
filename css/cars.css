@@ -1,0 +1,155 @@
+.header {
+    background-color: #151515;
+    min-height: 140px;
+}
+
+.choose {
+    margin-top: 240px;
+    padding-bottom: 160px;
+}
+
+.choose__top {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.choose__title {
+    margin-bottom: 50px;
+}
+
+.choose__tab-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #151515;
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-right: 80px;
+}
+
+.choose__tab {
+    display: flex;
+    justify-content: center;
+}
+
+.choose__tab-link:last-child {
+    margin-right: 0;
+}
+
+.choose__tab-link-active {
+    color: #0066FF;
+}
+
+.choose__tab-link:hover {
+    color: #0066FF;
+
+}
+
+.choose__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.choose__item {
+    width: 25%;
+    padding: 0 20px;
+
+    margin-bottom: 100px;
+}
+
+.choose__content {
+    text-align: center;
+    padding: 20px 15px;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
+
+.choose__item-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #151515;
+
+    margin-bottom: 20px;
+}
+
+.choose__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.choose__start {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #151515;
+}
+
+.choose__price {
+    font-size: 24px;
+    color: #151515;
+    font-weight: 700;
+}
+
+.choose__btn {
+    text-align: center;
+    border: 1px solid #0066FF;
+    border-top: 0;
+    padding: 2px 15px;
+}
+
+.choose__link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0066FF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.choose__button {
+    display: inline-block;
+    color: #ffff;
+    background-color: #151515;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 13px 60px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    .choose__item{
+        width: 50%;
+    }
+
+    .choose__img{
+        width: 100%;
+    }
+
+    .choose__tab-link{
+        font-size: 19px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .choose__tab{
+        flex-direction: column;
+    }
+
+    .choose__tab-link{
+        margin-right: 0;
+        margin: 10px 0;
+        font-size: 24px;
+    }
+    .choose{
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 520px) {
+    .choose__item{
+        width: 100%;
+    }
+}
